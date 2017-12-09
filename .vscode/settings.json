@@ -1,0 +1,17 @@
+{
+    // Настройка стандартных масок для исключения файлов и папок.
+    "files.exclude": {
+      "**/.git": true,
+      "**/.vscode": true,
+      "**/node_modules": true,
+      "**/dist": true
+    },
+    // Число пробелов в табуляции. Эта настройка переопределяется на основании содержимого файла, когда включен параметр "editor.detectIndentation".
+    "editor.tabSize": 2,
+    // Вставлять пробелы при нажатии клавиши TAB. Эта настройка переопределяется на основании содержимого файла, когда включен параметр "editor.detectIndentation".
+    "editor.insertSpaces": true,
+    // При открытии файла editor.tabSize и editor.insertSpaces будут определяться на основе содержимого файла.
+    "editor.detectIndentation": false,
+    // Определяет, должен ли редактор обрабатывать символы пробела; возможные значения: "none", "boundary" и "all". Параметр "boundary" не обрабатывает единичные пробелы между словами.
+    "editor.renderWhitespace": "boundary"
+  }
